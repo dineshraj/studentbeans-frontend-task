@@ -10,6 +10,9 @@ case $1 in
   build)
     yarn build
     ;;
+  lint)
+    yarn lint
+    ;;
   test)
     yarn test $@
     ;;
