@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Image = ({ display_url: displayUrl, altText, style = '' }) => {
+const Image = ({ display_url: displayUrl, altText, style = {} }) => {
   return (
     <img
       src={displayUrl}

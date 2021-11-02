@@ -1,12 +1,12 @@
 const commentStyles = {
   comment: {
     display: 'flex',
-    gap: '20px'
+    gap: '10px'
   },
 
   text: {
     order: '1',
-    flex: '1 0 80%'
+    flex: '1 0 85%'
   },
 
   name: {
@@ -15,7 +15,7 @@ const commentStyles = {
 
   heart: {
     order: '2',
-    flex: '1 0 20%'
+    flex: '1 0 5%'
   }
 }
 

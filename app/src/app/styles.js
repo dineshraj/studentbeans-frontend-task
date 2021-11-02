@@ -1,4 +1,4 @@
-export default {
+const main = {
   main: {
     backgroundColor: '#fff',
     border: '1px solid #e6e6e6',
@@ -21,6 +21,7 @@ export default {
     flex: '1 0 60%',
     alignSelf: 'flex-start',
     paddingTop: '40px',
+    paddingBottom: '40px',
     backgroundColor: 'rgb(250, 250, 250)'
   },
 
@@ -38,30 +39,10 @@ export default {
     overflow: 'scroll'
   },
 
-  heading: {
-    display: 'flex',
-    gap: '8px',
-    paddingBottom: '16px',
-    borderBottom: '1px grey solid',
-    icon: {
-      order: '1',
-      height: '60px'
-      // flex: ' 0 0 20%'
-    },
-    userInfo: {
-      order: '2',
-      justifyContent: 'center',
-      display: 'flex',
-      flexDirection: 'column',
-      lineHeight: '1.2em'
-    },
-    username: {
-      fontWeight: 'bold',
-      margin: '0'
-    },
-    location: {
-      margin: '0',
-      color: 'rgb(30,30,30)'
-    }
+  post: {
+    width: '80%'
   }
+
 }
+
+export default main;
