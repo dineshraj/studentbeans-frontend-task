@@ -6,8 +6,7 @@ const main = {
     borderTopRightRadius: '3px',
     maxWidth: '935px',
     margin: '16px auto',
-    width: 'calc(100% - 40px)',
-
+    width: '100%',
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',

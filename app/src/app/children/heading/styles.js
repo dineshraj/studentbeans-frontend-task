@@ -3,7 +3,8 @@ const heading = {
     display: 'flex',
     gap: '8px',
     paddingBottom: '16px',
-    borderBottom: '1px #F2F2F3 solid',
+    borderBottom: '1px rgb(240,240,240) solid',
+    width: 'calc(100% - 20px)'
   },
 
   icon: {
